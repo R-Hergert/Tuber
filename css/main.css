@@ -1,3 +1,44 @@
 #test {
 	margin-top:-20px;
 }
+
+.btn {
+  opacity:0.75;
+  background: #00ed37;
+  background-image: -webkit-linear-gradient(top, #00ed37, #007804);
+  background-image: -moz-linear-gradient(top, #00ed37, #007804);
+  background-image: -ms-linear-gradient(top, #00ed37, #007804);
+  background-image: -o-linear-gradient(top, #00ed37, #007804);
+  background-image: linear-gradient(to bottom, #00ed37, #007804);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 3px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00f068;
+  background-image: -webkit-linear-gradient(top, #00f068, #00d11f);
+  background-image: -moz-linear-gradient(top, #00f068, #00d11f);
+  background-image: -ms-linear-gradient(top, #00f068, #00d11f);
+  background-image: -o-linear-gradient(top, #00f068, #00d11f);
+  background-image: linear-gradient(to bottom, #00f068, #00d11f);
+  text-decoration: none;
+}
+
+#image1 {
+  background-image: url(https://s3.amazonaws.com/cdn.atlaswearables.com/blog_banners/slide_1.jpg);
+  width: 50vw;
+  height:35vw;
+}
+
+#image2 {
+  background-image: url(http://consciouslifenews.com/wp-content/uploads/2013/02/gm-crops.jpg);
+  width: 50vw;
+  height:35vw;
+}
+

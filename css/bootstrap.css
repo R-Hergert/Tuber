@@ -4989,7 +4989,7 @@ a.badge:focus {
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 0px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -6756,5 +6756,5 @@ button.close {
   .hidden-print {
     display: none !important;
   }
-}
+
 /*# sourceMappingURL=bootstrap.css.map */
