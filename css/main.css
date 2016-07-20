@@ -1,44 +1,82 @@
-#test {
-	margin-top:-20px;
-}
-
+/*                              Header       */
 .btn {
-  opacity:0.75;
-  background: #00ed37;
-  background-image: -webkit-linear-gradient(top, #00ed37, #007804);
-  background-image: -moz-linear-gradient(top, #00ed37, #007804);
-  background-image: -ms-linear-gradient(top, #00ed37, #007804);
-  background-image: -o-linear-gradient(top, #00ed37, #007804);
-  background-image: linear-gradient(to bottom, #00ed37, #007804);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #000000;
-  font-size: 3px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+	position:fixed;
+	margin-left:1400px;
+	width:100px;
 }
 
-.btn:hover {
-  background: #00f068;
-  background-image: -webkit-linear-gradient(top, #00f068, #00d11f);
-  background-image: -moz-linear-gradient(top, #00f068, #00d11f);
-  background-image: -ms-linear-gradient(top, #00f068, #00d11f);
-  background-image: -o-linear-gradient(top, #00f068, #00d11f);
-  background-image: linear-gradient(to bottom, #00f068, #00d11f);
-  text-decoration: none;
+#signUp {
+	margin-top:-30px;
 }
 
+#logIn {
+	margin-top:10px;
+}
+
+#title {
+	margin-bottom:0px; 
+	padding-bottom:0px; 
+	margin-left:500px
+}
+
+
+
+
+/*                            Images                      */
 #image1 {
-  background-image: url(https://s3.amazonaws.com/cdn.atlaswearables.com/blog_banners/slide_1.jpg);
+  background-image: url(https://sunsetwestphoria.files.wordpress.com/2015/05/3-pears1.jpg);
   width: 50vw;
-  height:35vw;
+  height:39vw;
 }
 
 #image2 {
-  background-image: url(http://consciouslifenews.com/wp-content/uploads/2013/02/gm-crops.jpg);
+  background-image: url(http://www.proptera.com/application/files/2314/2420/9499/iStock_000012551695_Lettuce_Large.jpg);
   width: 50vw;
-  height:35vw;
+  height:39vw;
 }
 
+#image1:hover {
+	opacity:0.85;
+}
+
+#image2:hover {
+	opacity:0.85;
+}
+
+
+/*                  Buttons                         */
+.Button {
+	-moz-box-shadow: 0px 0px 0px 2px #3dc21b;
+	-webkit-box-shadow: 0px 0px 0px 2px #3dc21b;
+	box-shadow: 0px 0px 0px 2px #3dc21b;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:50px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+	background-color:#5cbf2a;
+}
